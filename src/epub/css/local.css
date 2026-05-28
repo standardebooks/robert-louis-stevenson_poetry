@@ -126,8 +126,6 @@ footer{
 }
 
 [epub|type~="z3998:poem"] footer p{
-	margin-right: 1em;
-	margin-top: 1em;
 	text-align: right;
 }
 /* End footers */
