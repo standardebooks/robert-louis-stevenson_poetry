@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/robert-louis-stevenson/poetry</dc:identifier>
 		<dc:date>2026-05-28T21:40:04Z</dc:date>
 		<meta property="dcterms:modified">2026-05-28T21:40:04Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
+		<meta property="rdf:type">http://schema.org/Book</meta>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
-		<meta property="se:url.homepage" refines="#publisher">https://standardebooks.org/</meta>
+		<link href="https://standardebooks.org/" refines="#publisher" rel="schema:url"/>
 		<meta property="role" refines="#publisher" scheme="marc:relators">bkd</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">mdc</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">pbl</meta>
 		<dc:contributor id="type-designer">The League of Moveable Type</dc:contributor>
 		<meta property="file-as" refines="#type-designer">League of Moveable Type, The</meta>
-		<meta property="se:url.homepage" refines="#type-designer">https://www.theleagueofmoveabletype.com/</meta>
+		<link href="https://www.theleagueofmoveabletype.com/" refines="#type-designer" rel="schema:url"/>
 		<meta property="role" refines="#type-designer" scheme="marc:relators">tyd</meta>
 		<meta id="conformance-statement" property="dcterms:conformsTo">EPUB Accessibility 1.1 - WCAG 2.2 Level AA</meta>
 		<meta property="a11y:certifiedBy" refines="#conformance-statement">Standard Ebooks</meta>
@@ -35,7 +36,7 @@
 		<dc:subject id="subject-3">English literature--19th century</dc:subject>
 		<dc:subject id="subject-4">Love poetry</dc:subject>
 		<dc:subject id="subject-5">Poetry</dc:subject>
-		<meta property="se:is-a-collection">true</meta>
+		<meta property="schema:additionalType">http://schema.org/Collection</meta>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
 		<meta property="term" refines="#subject-1">sh85023721</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
@@ -46,7 +47,7 @@
 		<meta property="term" refines="#subject-4">sh85078539</meta>
 		<meta property="authority" refines="#subject-5">LCSH</meta>
 		<meta property="term" refines="#subject-5">sh85103704</meta>
-		<meta property="se:subject">Poetry</meta>
+		<meta property="schema:genre">Poetry</meta>
 		<dc:description id="description">A collection of poetry by Scottish writer Robert Louis Stevenson.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;While celebrated for his enduring adventure novels, &lt;a href="https://standardebooks.org/ebooks/robert-louis-stevenson"&gt;Robert Louis Stevenson&lt;/a&gt; also possessed a profound and deeply personal poetic voice. This complete collection of his verse journeys from the vibrant, unbounded imagination of youth—where everyday surroundings transform into realms of discovery, as seen in “My Shadow”—to the contemplative reflections of a lifelong wanderer.&lt;/p&gt;
@@ -416,20 +417,22 @@
 		<!-- Rivers And Winds Among The Twisted Hills                           -->
 		<!-- I Am A Hunchback, Yellow-Faced; I Look Across The Ocean            -->
 		<dc:source>https://en.wikisource.org/wiki/Poems,_by_Robert_Louis_Stevenson,_hitherto_unpublished</dc:source>
-		<meta property="se:word-count">67201</meta>
-		<meta property="se:reading-ease.flesch">71.18</meta>
-		<meta property="se:url.vcs.github">https://github.com/standardebooks/robert-louis-stevenson_poetry</meta>
+		<meta property="schema:wordCount">67201</meta>
+		<meta property="schema:educationalLevel">71.18</meta>
+		<meta property="schema:workExample" id="vcs-repository">schema:workExample</meta>
+		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
+		<link href="https://github.com/standardebooks/robert-louis-stevenson_poetry" refines="#vcs-repository" rel="schema:codeRepository"/>
 		<dc:creator id="author">Robert Louis Stevenson</dc:creator>
 		<meta property="file-as" refines="#author">Stevenson, Robert Louis</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Robert_Louis_Stevenson</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n78088964</meta>
+		<link href="https://en.wikipedia.org/wiki/Robert_Louis_Stevenson" refines="#author" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n78088964.html" refines="#author" rel="schema:sameAs"/>
 		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">ill</meta>
 		<dc:contributor id="artist">Albert Edelfelt</dc:contributor>
 		<meta property="file-as" refines="#artist">Edelfelt, Albert</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Albert_Edelfelt</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n82230057</meta>
+		<link href="https://en.wikipedia.org/wiki/Albert_Edelfelt" refines="#artist" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n82230057.html" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Jonathan Ingram</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Ingram, Jonathan</meta>
@@ -442,15 +445,15 @@
 		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-4">Distributed Proofreaders</dc:contributor>
 		<meta property="file-as" refines="#transcriber-4">Distributed Proofreaders</meta>
-		<meta property="se:url.homepage" refines="#transcriber-4">https://www.pgdp.net/</meta>
+		<link href="https://www.pgdp.net/" refines="#transcriber-4" rel="schema:url"/>
 		<meta property="role" refines="#transcriber-4" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-5">Wikisource Contributors</dc:contributor>
 		<meta property="file-as" refines="#transcriber-5">Wikisource Contributors</meta>
-		<meta property="se:url.homepage" refines="#transcriber-5">https://en.wikisource.org/</meta>
+		<link href="https://en.wikisource.org/" refines="#transcriber-5" rel="schema:url"/>
 		<meta property="role" refines="#transcriber-5" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">C. B. Bowman</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Bowman, C. B.</meta>
-		<meta property="se:url.homepage" refines="#producer-1">https://github.com/cbbowman</meta>
+		<link href="https://github.com/cbbowman" refines="#producer-1" rel="schema:url"/>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
@@ -460,8 +463,8 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">wat</meta>
 		<dc:contributor id="producer-2">David Reimer</dc:contributor>
 		<meta property="file-as" refines="#producer-2">Reimer, David</meta>
-		<meta property="se:url.homepage" refines="#producer-2">https://github.com/dajare</meta>
-		<meta property="se:url.authority.nacoaf" refines="#producer-2">http://id.loc.gov/authorities/names/n92075987</meta>
+		<link href="https://github.com/dajare" refines="#producer-2" rel="schema:url"/>
+		<link href="https://id.loc.gov/authorities/names/n92075987.html" refines="#producer-2" rel="schema:sameAs"/>
 		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
