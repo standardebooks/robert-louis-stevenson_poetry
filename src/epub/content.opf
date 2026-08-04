@@ -48,7 +48,7 @@
 		<meta property="authority" refines="#subject-5">LCSH</meta>
 		<meta property="term" refines="#subject-5">sh85103704</meta>
 		<meta property="schema:genre">Poetry</meta>
-		<dc:abstract>A collection of poetry by Scottish writer Robert Louis Stevenson.</dc:abstract>
+		<meta property="schema:abstract">A collection of poetry by Scottish writer Robert Louis Stevenson.</meta>
 		<dc:description>
 			&lt;p&gt;While celebrated for his enduring adventure novels, &lt;a href="https://standardebooks.org/ebooks/robert-louis-stevenson"&gt;Robert Louis Stevenson&lt;/a&gt; also possessed a profound and deeply personal poetic voice. This complete collection of his verse journeys from the vibrant, unbounded imagination of youth—where everyday surroundings transform into realms of discovery, as seen in “My Shadow”—to the contemplative reflections of a lifelong wanderer.&lt;/p&gt;
 			&lt;p&gt;As the verses cross oceans and decades, the tone shifts to encompass darker mythic narratives, the abiding bonds of friendship, and the stark realities of mortality. Whether exploring the bloody folklore of the Scottish Highlands, the legends of the South Seas, or the serene acceptance of death found in “Requiem,” these poems offer a lyrical and intimate counterpart to his famous tales of adventure.&lt;/p&gt;
