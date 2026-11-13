@@ -449,8 +449,8 @@
 		<meta property="file-as" refines="#transcriber-4">Distributed Proofreaders</meta>
 		<link href="https://www.pgdp.net/" refines="#transcriber-4" rel="schema:url"/>
 		<meta property="role" refines="#transcriber-4" scheme="marc:relators">trc</meta>
-		<dc:contributor id="transcriber-5">Wikisource Contributors</dc:contributor>
-		<meta property="file-as" refines="#transcriber-5">Wikisource Contributors</meta>
+		<dc:contributor id="transcriber-5">Wikisource</dc:contributor>
+		<meta property="file-as" refines="#transcriber-5">Wikisource</meta>
 		<link href="https://en.wikisource.org/" refines="#transcriber-5" rel="schema:url"/>
 		<meta property="role" refines="#transcriber-5" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">C. B. Bowman</dc:contributor>
